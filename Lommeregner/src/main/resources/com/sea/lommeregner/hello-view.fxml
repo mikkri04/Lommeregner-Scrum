@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
-
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
    <children>
@@ -20,41 +20,104 @@
       </HBox>
       <HBox layoutY="200.0" prefHeight="100.0" prefWidth="400.0">
          <children>
-            <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="Button" />
-            <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="Button" />
-            <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="Button" />
-            <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="Button" />
+            <Button fx:id="btnClear" mnemonicParsing="false" onAction="#onBtnClickClear" prefHeight="100.0" prefWidth="100.0" text="C" textFill="#d00808">
+               <font>
+                  <Font size="49.0" />
+               </font></Button>
+            <Button fx:id="btnPlusMinus" mnemonicParsing="false" onAction="#onBtnClickPlusMinus" prefHeight="100.0" prefWidth="100.0" text="+" textFill="#6d3cd0" underline="true">
+               <font>
+                  <Font size="49.0" />
+               </font>
+               <padding>
+                  <Insets bottom="10.0" />
+               </padding></Button>
+            <Button fx:id="btnPercentage" mnemonicParsing="false" onAction="#onBtnClickPercantage" prefHeight="100.0" prefWidth="100.0" text="\%" textFill="#6d3cd0">
+               <font>
+                  <Font size="46.0" />
+               </font></Button>
+            <Button fx:id="btnDivide" mnemonicParsing="false" onAction="#onBtnClickDivide" prefHeight="100.0" prefWidth="100.0" text="/" textAlignment="CENTER" textFill="#6d3cd0">
+               <font>
+                  <Font size="46.0" />
+               </font></Button>
          </children>
       </HBox>
       <HBox layoutY="300.0" prefHeight="100.0" prefWidth="400.0">
          <children>
-            <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="Button" />
-            <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="Button" />
-            <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="Button" />
-            <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="Button" />
+            <Button fx:id="btnSeven" mnemonicParsing="false" onAction="#onBtnClickSeven" prefHeight="100.0" prefWidth="100.0" text="7" textFill="#6d3cd0">
+               <font>
+                  <Font size="49.0" />
+               </font></Button>
+            <Button fx:id="btnEight" mnemonicParsing="false" onAction="#onBtnClickEight" prefHeight="100.0" prefWidth="100.0" text="8" textFill="#6d3cd0">
+               <font>
+                  <Font size="49.0" />
+               </font></Button>
+            <Button fx:id="btnNine" mnemonicParsing="false" onAction="#onBtnClickNine" prefHeight="100.0" prefWidth="100.0" text="9" textFill="#6d3cd0">
+               <font>
+                  <Font size="49.0" />
+               </font></Button>
+            <Button fx:id="btnPlus" mnemonicParsing="false" onAction="#onBtnClickPlus" prefHeight="100.0" prefWidth="100.0" text="+" textFill="#6d3cd0">
+               <font>
+                  <Font size="46.0" />
+               </font></Button>
          </children>
       </HBox>
       <HBox layoutY="400.0" prefHeight="100.0" prefWidth="400.0">
          <children>
-            <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="Button" />
-            <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="Button" />
-            <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="Button" />
-            <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="Button" />
+            <Button fx:id="btnFour" mnemonicParsing="false" onAction="#onBtnClickFour" prefHeight="100.0" prefWidth="100.0" text="4" textFill="#6d3cd0">
+               <font>
+                  <Font size="49.0" />
+               </font></Button>
+            <Button fx:id="btnFive" mnemonicParsing="false" onAction="#onBtnClickFive" prefHeight="100.0" prefWidth="100.0" text="5" textFill="#6d3cd0">
+               <font>
+                  <Font size="49.0" />
+               </font></Button>
+            <Button fx:id="btnSix" mnemonicParsing="false" onAction="#onBtnClickSix" prefHeight="100.0" prefWidth="100.0" text="6" textFill="#6d3cd0">
+               <font>
+                  <Font size="49.0" />
+               </font></Button>
+            <Button fx:id="btnMinus" mnemonicParsing="false" onAction="#onBtnClickMinus" prefHeight="100.0" prefWidth="100.0" text="-" textFill="#6d3cd0">
+               <font>
+                  <Font size="49.0" />
+               </font></Button>
          </children>
       </HBox>
       <HBox layoutY="500.0" prefHeight="100.0" prefWidth="400.0">
          <children>
-            <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="Button" />
-            <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="Button" />
-            <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="Button" />
-            <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="Button" />
+            <Button fx:id="btnOne" mnemonicParsing="false" onAction="#onBtnClickOne" prefHeight="100.0" prefWidth="100.0" text="1" textFill="#6d3cd0">
+               <font>
+                  <Font size="49.0" />
+               </font></Button>
+            <Button fx:id="btnTwo" mnemonicParsing="false" onAction="#onBtnClickTwo" prefHeight="100.0" prefWidth="100.0" text="2" textFill="#6d3cd0">
+               <font>
+                  <Font size="49.0" />
+               </font></Button>
+            <Button fx:id="btnThree" mnemonicParsing="false" onAction="#onBtnClickThree" prefHeight="100.0" prefWidth="100.0" text="3" textFill="#6d3cd0">
+               <font>
+                  <Font size="49.0" />
+               </font></Button>
+            <Button fx:id="btnMultiply" mnemonicParsing="false" onAction="#onBtnClickMultiply" prefHeight="100.0" prefWidth="100.0" text="*" textFill="#6d3cd0">
+               <font>
+                  <Font size="49.0" />
+               </font>
+               <padding>
+                  <Insets top="20.0" />
+               </padding></Button>
          </children>
       </HBox>
       <HBox layoutY="600.0" prefHeight="100.0" prefWidth="400.0">
          <children>
-            <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="Button" />
-            <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="Button" />
-            <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="200.0" text="Button" />
+            <Button fx:id="btnZero" mnemonicParsing="false" onAction="#onBtnClickZero" prefHeight="100.0" prefWidth="100.0" text="0" textFill="#6d3cd0">
+               <font>
+                  <Font size="49.0" />
+               </font></Button>
+            <Button fx:id="btnComma" mnemonicParsing="false" onAction="#onBtnClickComma" prefHeight="100.0" prefWidth="100.0" text="," textFill="#6d3cd0">
+               <font>
+                  <Font size="49.0" />
+               </font></Button>
+            <Button fx:id="btnEqual" mnemonicParsing="false" onAction="#onBtnClickEqual" prefHeight="100.0" prefWidth="200.0" text="=" textFill="#6d3cd0">
+               <font>
+                  <Font size="49.0" />
+               </font></Button>
          </children>
       </HBox>
    </children>
