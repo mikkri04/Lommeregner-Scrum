@@ -45,7 +45,7 @@ public class handler {
                     case "+" -> plus(num1, num2);
                     case "-" -> minus(num1, num2);
                     case "*" -> times(num1, num2);
-                    case "/" -> devide(num1, num2);
+                    case "/" -> divide(num1, num2);
                     case "%" -> modulo(num1, num2);
                     default -> 0;
                 });
